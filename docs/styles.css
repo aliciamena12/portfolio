@@ -1,0 +1,353 @@
+
+.body {
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+/***********************************
+   _    _                _           
+  | |  | |              | |          
+  | |__| | ___  __ _  __| | ___ _ __ 
+  |  __  |/ _ \/ _` |/ _` |/ _ \ '__|
+  | |  | |  __/ (_| | (_| |  __/ |   
+  |_|  |_|\___|\__,_|\__,_|\___|_|   
+                                     
+*************************************/
+ 
+    header {
+        background-color: #242625;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+
+    .name__web {
+        text-decoration: none;
+        background-color: #3c46d8f6;
+        color: #ffffff;
+        font-size: 2.5em;
+        font-family: 'Montserrat', sans-serif;
+        padding: 0px 20px;
+        font-weight: 900;
+    }
+
+    .navbar ul{
+        display: flex;
+    }
+
+    header a {
+        color: #ffffff;
+    }
+
+    header a:hover {
+        color: #3c46d8f6;
+    }
+
+    .name__web:hover {
+        color: #242625;
+    }
+
+/***********************************
+  __  __       _       
+ |  \/  |     (_)      
+ | \  / | __ _ _ _ __  
+ | |\/| |/ _` | | '_ \ 
+ | |  | | (_| | | | | |
+ |_|  |_|\__,_|_|_| |_|
+                        
+*************************************/
+ 
+    .main__hero {
+        background-color: #3c46d8f6;
+        background-size: cover;
+        height: fit-content;
+        color: #ffffff;
+    }
+    .main__hero--container {
+        height: fit-content;
+        background-image: url(/assets/images/main.jpg);
+        background-size: contain;
+        background-position-x: right;
+        background-repeat: no-repeat;
+        width: 80%;
+        padding: 0px 20px;
+        margin: 0px auto;
+        
+    }
+
+    .main__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        padding: 120px 0px 30px;
+    }
+
+    .boton {
+        background-color: #fafafa;
+        width: fit-content;
+        padding: 5px 20px;
+        border-radius: 5px;
+    }
+
+    .boton a {
+        text-decoration: none;
+        color: #3c46d8;
+        font-weight: bold;
+        font-size: 1em;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    #main__title {
+        padding: 20px 0px 20px 0px;
+        font-size: 3em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+    }
+
+    #main__subtitle {
+        padding: 0px 0px 10px 0px;
+    }
+
+
+
+
+/************************************
+          _                 _   
+    /\   | |               | |  
+   /  \  | |__   ___  _   _| |_ 
+  / /\ \ | '_ \ / _ \| | | | __|
+ / ____ \| |_) | (_) | |_| | |_ 
+/_/    \_\_.__/ \___/ \__,_|\__|
+                                
+*************************************/                               
+
+    .about__me {
+        display: flex;
+        width: 90%;
+        margin: 100px auto;
+        flex-direction: column;
+        padding: 0px 30px;
+    }
+
+    .photo__container {
+        text-align: center;
+    }
+
+
+    #selfie {
+        width: 90%;
+        justify-items: center;
+        border-radius: 4px;
+    }
+
+    .about__me--info {
+        padding: 30px 0px; 
+    }
+
+    .social img {
+        margin: 10px 10px;
+    }
+
+
+
+/***********************************
+   _____ _    _ _ _     
+  / ____| |  (_) | |    
+ | (___ | | ___| | |___ 
+  \___ \| |/ / | | / __|
+  ____) |   <| | | \__ \
+ |_____/|_|\_\_|_|_|___/
+                                     
+*************************************/
+
+    .skills {
+        background-color: #fafafa;
+        padding: 40px 0px 50px 0px;
+        height: fit-content;
+    }
+
+    .skills__info {
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .skills__container {
+        width: 100%;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .skill__element {
+        margin: 10px 20px;
+        padding: 20px 70px; 
+    }
+
+    .skill__element h4 {
+        font-size: 1.3em;
+        margin: 10px 0px; 
+    }
+    
+    .skill__element svg {
+        margin: 10px 20px 0px 0px;
+    }
+
+
+
+/*************************************
+  _____           _    __      _ _       
+ |  __ \         | |  / _|    | (_)      
+ | |__) |__  _ __| |_| |_ ___ | |_  ___  
+ |  ___/ _ \| '__| __|  _/ _ \| | |/ _ \ 
+ | |  | (_) | |  | |_| || (_) | | | (_) |
+ |_|   \___/|_|   \__|_| \___/|_|_|\___/ 
+ 
+************************************/
+
+    .portfolio {
+        background-color: #fafafa;
+        padding: 40px 0px 50px 0px;
+        height: fit-content;
+    }
+
+    .portfolio__title {
+        width: 78%;
+        font-weight: 700;
+        margin: 0px auto;
+    }
+
+    .portfolio__container {
+        width: 80%;
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .portfolio__element {
+        width: 100%;
+        margin: 40px 0px;
+        display: flex;
+        padding: 0px 50px;
+    }
+
+    .portfolio__element a {
+        color: #242625;
+        text-decoration: underline;
+    }
+    .portfolio__element--img {
+        width: 60%;
+    }
+    .portfolio__element--info {
+        width: 50%;
+        overflow-wrap: break-word;
+        padding: 10px 0px 10px 20px;
+    }
+
+    .portfolio__element h4 {
+        font-size: 1.2em;
+    }
+
+
+
+/***********************************
+    ______          _            
+    |  ____|        | |           
+    | |__ ___   ___ | |_ ___ _ __ 
+    |  __/ _ \ / _ \| __/ _ \ '__|
+    | | | (_) | (_) | ||  __/ |   
+    |_|  \___/ \___/ \__\___|_|   
+                                  
+************************************/    
+   
+    .footer {
+        background-color: #242625;
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 500;
+        letter-spacing: 1px;
+        height: 60px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: bottom;
+        padding: 20px 0px;
+    }
+
+    .footer p {
+        margin: 0px;
+    }
+    .footer p:hover {
+        color: #3c46d8f6;
+    }
+
+
+
+/*****************************
+   _____         _ _       _     
+  / ____|       (_) |     | |    
+ | (_____      ___| |_ ___| |__  
+  \___ \ \ /\ / / | __/ __| '_ \ 
+  ____) \ V  V /| | || (__| | | |
+ |_____/ \_/\_/ |_|\__\___|_| |_|
+                                 
+**********************************/
+
+nav ul li {
+    height: 40px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+#button {
+  display: inline-block;
+  top: 0px;
+  width: 300px;
+  height: 80px;
+  background-color: #000;
+  border-radius: 350px;
+  cursor: pointer;
+  transform: scale(0.4);
+  margin: -19px;
+}
+
+#knob {
+  width: 140px;
+  height: 70px;
+  background-color:#3c46d8;
+  position: relative;
+  top: 5px;
+  left: 5px;
+  border-radius: 290px;
+  transition: 0.4s ease left, 0.4s ease background-position;
+  z-index: 2;
+}
+
+#subscribe,
+#alright {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  margin-left: 160px;
+  z-index: 1;
+}
+
+#alright {
+  margin-left: 30px;
+}
+
+#lang-checkbox:checked + #button #knob {
+  left: 155px;
+}
