@@ -68,7 +68,7 @@
     }
     .main__hero--container {
         height: fit-content;
-        background-image: url(/images/main.jpg);
+        background-image: url(images/main.jpg);
         background-size: contain;
         background-position-x: right;
         background-repeat: no-repeat;
